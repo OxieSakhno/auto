@@ -4,7 +4,7 @@
   "description": "Test automaton on Udemy",
   "main": "index.js",
   "scripts": {
-    "build-storybook": "node .scripts/storybook.js",
+    "build-storybook": "node ./scripts/storybook.js",
     "test:e2e": "node ./scripts/e2e.test.js",
     "lint": "node ./scripts/eslint.js",
     "type:check": "node ./scripts/typecheck.js",

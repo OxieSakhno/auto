@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test.skip("First Basic Test", async ({ page }) => {
+test("First Basic Test", async ({ page }) => {
   await page.goto("https://www.example.com");
   const pageTitle = page.locator("h1");
   await expect(pageTitle).toContainText("Example Domain");
